@@ -335,7 +335,7 @@
 
 
     <div class="project-toolbar">
-      <div id="filters">
+      <div id="filters-projects">
         <div class="btn-toolbar">
           <div class="btn-group">
 
@@ -507,10 +507,11 @@
   </div>
   <div class="col-xs-12 col-md-9">
     <div class="skills-toolbar">
-      <div id="filters">
+      <div id="filters-skills">
         <div class="btn-toolbar">
           <div class="btn-group">
 
+      <!--<a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>-->
 			<a href="#" data-filter=".domain-expertise" class="btn btn-primary btn-large active">Domain Expertise</a>
 
 			<a href="#" data-filter=".programing-languages" class="btn btn-primary btn-large">Programing Languages</a>
@@ -540,7 +541,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item programing-languages">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item programing-languages" hidden>
         <ul class="ul-skills">
           <li><h4>Python</h4></li>
           <li><h4>Java</h4></li>
@@ -552,7 +553,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item big-data">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item big-data" hidden>
         <ul class="ul-skills">
           <li><h4>Apache Spark</h4></li>
           <li><h4>Apache Hadoop</h4></li>
@@ -562,7 +563,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item machine-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item machine-learning" hidden>
         <ul class="ul-skills">
           <li><h4>Scikit-Learn</h4></li>
           <li><h4>TensorFlow</h4></li>
@@ -574,7 +575,7 @@
         </ul>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item databases">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 skills-item isotope-item databases" hidden>
         <ul class="ul-skills">
           <li><h4>Oracle SQL</h4></li>
           <li><h4>Postgres</h4></li>
@@ -763,8 +764,6 @@ multiple groups.</li>
 </footer>
 
 
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-
 <script src="js/jquery-1.11.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
@@ -772,11 +771,11 @@ multiple groups.</li>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/hugo-academic.js"></script>
 
-      <script src="../cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
 
 
 

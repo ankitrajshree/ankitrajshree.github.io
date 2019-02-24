@@ -110,7 +110,7 @@
     });
 
     // Filter items when filter link is clicked.
-    $('#filters a').click(function () {
+    $('#filters-projects a').click(function () {
       let selector = $(this).attr('data-filter');
       $grid_projects.isotope({filter: selector});
       $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
@@ -132,8 +132,9 @@
     });
 
     // Filter items when filter link is clicked.
-    $('#filters a').click(function () {
+    $('#filters-skills a').click(function () {
       let selector = $(this).attr('data-filter');
+      $('#container-skills').find('.isotope-item').prop('hidden', false);
       $grid_skills.isotope({filter: selector});
       $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
       return false;
